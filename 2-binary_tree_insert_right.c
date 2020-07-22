@@ -12,6 +12,8 @@ if (parent == NULL)
 return (NULL);
 new = malloc(sizeof(binary_tree_t));
 new->parent = parent;
+new->right= NULL;
+new->left = NULL;
 new->n = value;
 if (new == NULL)
 return (NULL);
